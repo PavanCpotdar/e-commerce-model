@@ -1,0 +1,188 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	background:  rgb(168, 178, 172);
+	font-family: sans-serif;
+	/* font-weight: 100; */
+}
+.homeCantainer {
+    padding: 20px;
+    display: flex;
+    gap:10px;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.productCard {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.productImage {
+    width: 100%;
+    height: 200px;
+}
+
+.productTitle {
+    height: 20px;
+    overflow: hidden;
+}
+
+.productButton {
+    margin-left: auto;
+    background-color: black;
+    color: beige;
+    font-weight: 300;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: rgb(14, 27, 15);
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav button {
+    height: 50px;
+    margin-top: 10px;
+
+}
+
+nav h3 {
+    /* text-decoration: none; */
+    color: rgb(230, 230, 233);
+
+
+}
+
+
+.cartItem {
+    padding-top: 15px;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid black;
+    background-color: aliceblue;
+    /* margin: 10px; */
+    box-shadow: 0 0 0px 1px blues;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+
+}
+
+.cartItem span {
+    text-align: center;
+    width: 25%;
+    margin-right: 20px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.cartItem button {
+    border: 1px solid black;
+
+}
+
+.cartImageDiv {
+    /* background-color: aqua; */
+    /* padding: 5px;
+margin: 10px; */
+    width: 30px;
+    height: 30px;
+}
+
+.cartImage {
+    margin-top: 20px;
+    height: 20px;
+}
+
+.cartCount {
+    /* background-color: rgb(231, 234, 233); */
+    border-radius: 50px;
+    color: rgb(224, 226, 227);
+    text-decoration: none;
+    position: relative;
+    bottom: 17px;
+    left: 17px;
+}
+
+.cartItemImage {
+    width: 55px;
+
+}
+
+.cartDeleteIcon {
+    /* margin: 0; */
+    width: 25px;
+    height: 25px;
+}
+
+.totalCartAmountRow {
+
+    float: right;
+    padding-right: 20px;
+}
+
+.quantitySpan{
+    text-align: center;
+    margin: 10px;
+    font-size: 26px;
+    overflow: hidden;
+}
+
+
+.container {
+	/* position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); */
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #110912;
+    overflow: hidden;
+}
+
+th {
+	text-align: left;
+}
+
+thead {
+	th {
+		background-color: #6b906a;
+	}
+}
+
+tbody {
+	tr {
+		&:hover {
+			background-color: rgba(255,255,255,0.3);
+		}
+	}
+	
+}
+
+.productContainer{
+    display: flex;
+}
